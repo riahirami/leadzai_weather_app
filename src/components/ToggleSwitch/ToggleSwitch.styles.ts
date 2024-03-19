@@ -17,7 +17,7 @@ export const StyledToggleSwitch = styled("div")`
     display: block;
     width: 50px;
     height: 24px;
-    background: ${colors.DARK_GREY};
+    background: ${colors.WHITE};
     border-radius: 24px;
     position: relative;
     cursor: pointer;
@@ -35,7 +35,7 @@ export const StyledToggleSwitch = styled("div")`
     border-radius: 20px;
     background: ${colors.GREEN};
     position: absolute;
-    box-shadow: 0 0 5px 0 ${colors.GREY};
+    box-shadow: 0 0 5px 0 ${colors.BLACK};
     transition: left 0.3s;
   }
   .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {

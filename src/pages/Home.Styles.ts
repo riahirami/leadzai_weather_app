@@ -13,17 +13,14 @@ export const StyledHomeContainer = styled.div<StyledHomeContainerProps>`
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  height: 100vh;
+  min-height: 100vh;
   background-image: ${(props) => `url(${props.backgroundImage})`};
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-width: 100vh;
-
-  @media screen and (max-width: 300px) {
-    /* Adjust background properties for screens less than 300px wide */
-    background-size: cover;
-  }
+  padding: 20px;
+  box-sizing: border-box;
 `;
 
 export const StyledWeatherDetailsContainer = styled.div`
