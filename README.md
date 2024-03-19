@@ -1,8 +1,7 @@
 # Leadzai's Weather App
 
-# Project Title
+This README provides clear instructions for installation and usage, along with visually appealing screenshots to showcase the project.
 
-Brief description of what the project does.
 
 ## Table of Contents
 
